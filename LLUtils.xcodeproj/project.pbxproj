@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B49047A20A2D99E00B24ED3 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B49047920A2D99E00B24ED3 /* AuthManager.swift */; };
 		8B6AE17820A173410087FC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6AE17720A173410087FC95 /* AppDelegate.swift */; };
 		8B6AE17A20A173410087FC95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6AE17920A173410087FC95 /* ViewController.swift */; };
 		8B6AE17D20A173410087FC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6AE17B20A173410087FC95 /* Main.storyboard */; };
@@ -21,9 +22,17 @@
 		8B6AE19920A17ECD0087FC95 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6AE19820A17ECD0087FC95 /* UITableView+Extension.swift */; };
 		8B6AE19B20A1806A0087FC95 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6AE19A20A1806A0087FC95 /* UICollectionView+Extension.swift */; };
 		8B6AE19D20A189A50087FC95 /* DispatchQueue+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6AE19C20A189A50087FC95 /* DispatchQueue+Extension.swift */; };
+		8BD95EEB20AA751F002AC774 /* AppInfoConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD95EEA20AA751F002AC774 /* AppInfoConst.swift */; };
+		8BD95EF120AA759E002AC774 /* PopupWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD95EEE20AA759E002AC774 /* PopupWindow.swift */; };
+		8BD95EF220AA759E002AC774 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD95EEF20AA759E002AC774 /* PopupView.swift */; };
+		8BD95EF720AA75CB002AC774 /* ShareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD95EF520AA75CB002AC774 /* ShareViewModel.swift */; };
+		8BD95EF820AA75CB002AC774 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD95EF620AA75CB002AC774 /* ShareView.swift */; };
+		8BD95EFB20AA75E3002AC774 /* ShareItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD95EF920AA75E3002AC774 /* ShareItemCollectionViewCell.swift */; };
+		8BD95EFC20AA75E3002AC774 /* ShareItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD95EFA20AA75E3002AC774 /* ShareItemCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B49047920A2D99E00B24ED3 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		8B6AE17420A173410087FC95 /* LLUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6AE17720A173410087FC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B6AE17920A173410087FC95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +49,13 @@
 		8B6AE19820A17ECD0087FC95 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		8B6AE19A20A1806A0087FC95 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
 		8B6AE19C20A189A50087FC95 /* DispatchQueue+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extension.swift"; sourceTree = "<group>"; };
+		8BD95EEA20AA751F002AC774 /* AppInfoConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoConst.swift; sourceTree = "<group>"; };
+		8BD95EEE20AA759E002AC774 /* PopupWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupWindow.swift; sourceTree = "<group>"; };
+		8BD95EEF20AA759E002AC774 /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		8BD95EF520AA75CB002AC774 /* ShareViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewModel.swift; sourceTree = "<group>"; };
+		8BD95EF620AA75CB002AC774 /* ShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		8BD95EF920AA75E3002AC774 /* ShareItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BD95EFA20AA75E3002AC774 /* ShareItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareItemCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B49047B20A2D9A200B24ED3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8B49047920A2D99E00B24ED3 /* AuthManager.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		8B6AE16B20A173410087FC95 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +96,7 @@
 		8B6AE17620A173410087FC95 /* LLUtils */ = {
 			isa = PBXGroup;
 			children = (
+				8BD95EEC20AA7574002AC774 /* UI */,
 				8B6AE18920A1735E0087FC95 /* Utils */,
 				8B6AE17720A173410087FC95 /* AppDelegate.swift */,
 				8B6AE17920A173410087FC95 /* ViewController.swift */,
@@ -88,6 +113,7 @@
 			children = (
 				8B6AE19F20A189C70087FC95 /* UIKit */,
 				8B6AE19E20A189BC0087FC95 /* Foundation */,
+				8B49047B20A2D9A200B24ED3 /* Auth */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -96,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				8B6AE19C20A189A50087FC95 /* DispatchQueue+Extension.swift */,
+				8BD95EEA20AA751F002AC774 /* AppInfoConst.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -113,6 +140,43 @@
 				8B6AE19A20A1806A0087FC95 /* UICollectionView+Extension.swift */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		8BD95EEC20AA7574002AC774 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8BD95EED20AA757F002AC774 /* PopupView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8BD95EED20AA757F002AC774 /* PopupView */ = {
+			isa = PBXGroup;
+			children = (
+				8BD95EEF20AA759E002AC774 /* PopupView.swift */,
+				8BD95EEE20AA759E002AC774 /* PopupWindow.swift */,
+				8BD95EF420AA75B4002AC774 /* ShareView */,
+			);
+			path = PopupView;
+			sourceTree = "<group>";
+		};
+		8BD95EF420AA75B4002AC774 /* ShareView */ = {
+			isa = PBXGroup;
+			children = (
+				8BD95EF620AA75CB002AC774 /* ShareView.swift */,
+				8BD95EF520AA75CB002AC774 /* ShareViewModel.swift */,
+				8BD95EFD20AA75E7002AC774 /* Cell */,
+			);
+			path = ShareView;
+			sourceTree = "<group>";
+		};
+		8BD95EFD20AA75E7002AC774 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8BD95EF920AA75E3002AC774 /* ShareItemCollectionViewCell.swift */,
+				8BD95EFA20AA75E3002AC774 /* ShareItemCollectionViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B6AE18220A173430087FC95 /* LaunchScreen.storyboard in Resources */,
+				8BD95EFC20AA75E3002AC774 /* ShareItemCollectionViewCell.xib in Resources */,
 				8B6AE17F20A173430087FC95 /* Assets.xcassets in Resources */,
 				8B6AE17D20A173410087FC95 /* Main.storyboard in Resources */,
 			);
@@ -187,15 +252,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B6AE18D20A1786A0087FC95 /* UILabel+Extension.swift in Sources */,
+				8B49047A20A2D99E00B24ED3 /* AuthManager.swift in Sources */,
 				8B6AE19720A17E5C0087FC95 /* UIDevice+Extension.swift in Sources */,
+				8BD95EF220AA759E002AC774 /* PopupView.swift in Sources */,
 				8B6AE19920A17ECD0087FC95 /* UITableView+Extension.swift in Sources */,
+				8BD95EFB20AA75E3002AC774 /* ShareItemCollectionViewCell.swift in Sources */,
 				8B6AE19520A17CC20087FC95 /* String+Extension.swift in Sources */,
+				8BD95EF820AA75CB002AC774 /* ShareView.swift in Sources */,
 				8B6AE18B20A175F20087FC95 /* UIColor+Extension.swift in Sources */,
+				8BD95EEB20AA751F002AC774 /* AppInfoConst.swift in Sources */,
 				8B6AE19120A1799E0087FC95 /* UIButton+Extension.swift in Sources */,
 				8B6AE19B20A1806A0087FC95 /* UICollectionView+Extension.swift in Sources */,
 				8B6AE17A20A173410087FC95 /* ViewController.swift in Sources */,
 				8B6AE18F20A179270087FC95 /* UIView+Extension.swift in Sources */,
 				8B6AE19D20A189A50087FC95 /* DispatchQueue+Extension.swift in Sources */,
+				8BD95EF120AA759E002AC774 /* PopupWindow.swift in Sources */,
+				8BD95EF720AA75CB002AC774 /* ShareViewModel.swift in Sources */,
 				8B6AE17820A173410087FC95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
